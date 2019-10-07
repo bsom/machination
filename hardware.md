@@ -5,3 +5,4 @@
 * Waveshare 5.5in HDMI AMOLED 1920x1080 Monitor AMOLED Capacitive Touch Screen
 * PJRC Teensy 3.2
 * 8x Bourns PEC11-4020K-S0012 Rotary Encoders
+* Protoboard for holding/wiring encoders
