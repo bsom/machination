@@ -12,3 +12,5 @@
 - [ ] Front Panel Express aluminum panel
 - [x] Gorite NUC board header to 2x USB panel mount ports cable
   * https://www.gorite.com/2-usb-20-panel-female-connectors-to-10-pin-20mm8-inches-intl-2f-10p2mm-8in
+- [ ] Gorite Intel NUC Internal Power Cable 12 Inches 4 Pin to 4 Pin
+  * https://www.gorite.com/intel-nuc-internal-power-cable-12-inches-4-pin-to-4-pin
