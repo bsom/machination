@@ -14,3 +14,5 @@
   * https://www.gorite.com/2-usb-20-panel-female-connectors-to-10-pin-20mm8-inches-intl-2f-10p2mm-8in
 - [ ] Gorite Intel NUC Internal Power Cable 12 Inches 4 Pin to 4 Pin
   * https://www.gorite.com/intel-nuc-internal-power-cable-12-inches-4-pin-to-4-pin
+- [ ] DROK Power Supply Module DC 9V~36V to 5.2V 5A Double Output Buck Converter
+  * https://www.droking.com/dc-power-supply/dc-buck/Power-Supply-Module-DC-9V-36V-to-5.2V-5A-Double-Output-Buck-Converter-USB-Charger-Voltage-Regulator-Adapter-Driver-Module
