@@ -6,3 +6,4 @@
 * PJRC Teensy 3.2
 * 8x DuPPa i2cEncoder v2.1
 * Front Panel Express aluminum panel
+* NUC board header to 2x USB panel mount ports cable
