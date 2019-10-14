@@ -10,8 +10,8 @@
   * https://www.tindie.com/products/saimon/i2cencoder-v21-connect-rotary-encoder-on-i2c-bus/
 - [ ] 8x DuPPa Large Black Encoder Knobs
 - [ ] Front Panel Express aluminum panel
-- [x] Gorite NUC board header to 2x USB panel mount ports cable
-  * https://www.gorite.com/2-usb-20-panel-female-connectors-to-10-pin-20mm8-inches-intl-2f-10p2mm-8in
+- [x] Gorite USB A Dual Female Panel Mount to 1X8 Pin Internal USB Connector - 9 in.
+  * https://www.gorite.com/usb-a-dual-female-panel-mount-to-1x8-pin-internal-usb-connector-9-inches-intl-2xusb-p8-9in
 - [x] Gorite Intel NUC Internal Power Cable 12 Inches 4 Pin to 4 Pin
   * https://www.gorite.com/intel-nuc-internal-power-cable-12-inches-4-pin-to-4-pin
 - [x] Nylon standoff kit
