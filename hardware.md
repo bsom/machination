@@ -22,3 +22,4 @@
 - [ ] 5-pin single row 2.54mm female header to bare wire 
 - [x] Nylon standoff kit
   * https://amzn.to/2BxoARU
+- [ ] Acrylic Display Mounting Panel
