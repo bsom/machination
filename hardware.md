@@ -19,5 +19,7 @@
   * https://www.gorite.com/usb-a-dual-female-panel-mount-to-1x8-pin-internal-usb-connector-9-inches-intl-2xusb-p8-9in
 - [x] Gorite Intel NUC Internal Power Cable 12 Inches 4 Pin to 4 Pin
   * https://amzn.to/33Tsv80
+- [ ] 5x Female to Female Jumper Wires
+- [ ] 5x header pins for Teensy
 - [x] Nylon standoff kit
   * https://amzn.to/2BxoARU
