@@ -3,6 +3,7 @@
 Plot to create a Eurorack laptop-like PC with embedded MIDI control surface
 
 - [x] Identify hardware to use
+- [x] Identify cabling to use
 - [ ] Figure out how to mount Teensy (double-sided tape? carrier board?)
 - [x] Find power solution to power both display and NUC
 - [ ] Program Teensy to read encoders and output MIDI
