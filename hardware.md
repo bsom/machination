@@ -27,3 +27,5 @@
   * Laser cut in 3mm (or 1/8") acrylic
 - [ ] StarTech UUSBHAUB6IN 6 inch USB cable
   * https://amzn.to/31CHr8X
+- [ ] 18" USB Micro to USB A cable
+  * May come with the WaveShare DIsplay
