@@ -24,5 +24,6 @@
 - [x] Nylon standoff kit
   * https://amzn.to/2BxoARU
 - [ ] Acrylic Display Mounting Panel
+  * Laser cut in 2mm acrylic
 - [ ] StarTech UUSBHAUB6IN 6 inch USB cable
   * https://amzn.to/31CHr8X
