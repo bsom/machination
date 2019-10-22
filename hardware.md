@@ -29,3 +29,5 @@
   * https://amzn.to/31CHr8X
 - [ ] 18" USB Micro to USB A cable
   * May come with the WaveShare Display
+- [ ] Flat 1ft HDMI extension cable
+  * https://amzn.to/2W1dAWC
