@@ -3,7 +3,7 @@
 - [x] 2x 4GB DDR3L-1866 SO-DIMMs
 - [x] Samsung 860 EVO mSATA SSD (with add-on heatsink)
 - [x] Waveshare 5.5in HDMI AMOLED 1920x1080 Monitor AMOLED Capacitive Touch Screen
-  * https://www.waveshare.com/5.5inch-hdmi-amoled.htm
+  * https://amzn.to/31G72O5
 - [x] PJRC Teensy 3.2
   * https://amzn.to/2JcVewm
 - [ ] 8x DuPPa i2cEncoder v2.1 with RGB encoders and right-angle headers
