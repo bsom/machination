@@ -14,6 +14,6 @@
 - [x] Gorite USB A Dual Female Panel Mount to 1X8 Pin Internal USB Connector - 9 in.
   * https://www.gorite.com/usb-a-dual-female-panel-mount-to-1x8-pin-internal-usb-connector-9-inches-intl-2xusb-p8-9in
 - [x] Gorite Intel NUC Internal Power Cable 12 Inches 4 Pin to 4 Pin
-  * https://www.gorite.com/intel-nuc-internal-power-cable-12-inches-4-pin-to-4-pin
+  * https://amzn.to/33Tsv80
 - [x] Nylon standoff kit
-  * https://www.amazon.com/gp/product/B01N9Q8YLE/
+  * https://amzn.to/2BxoARU
