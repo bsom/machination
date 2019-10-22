@@ -1,7 +1,10 @@
 - [x] Intel NUC NUC5i5MYBE
   * Intel® Core™ i5-5300U Processor
 - [x] 2x 4GB DDR3L-1866 SO-DIMMs
-- [x] Samsung 860 EVO mSATA SSD (with add-on heatsink)
+- [x] Samsung 860 EVO SATA m.2 SSD
+  * https://amzn.to/2We0dTb
+- [x] SATA m.2 SSD Heatsink
+  * https://amzn.to/35Uymvv
 - [x] Waveshare 5.5in HDMI AMOLED 1920x1080 Monitor AMOLED Capacitive Touch Screen
   * https://amzn.to/31G72O5
 - [x] PJRC Teensy 3.2
