@@ -15,3 +15,4 @@
 - [x] Gorite Intel NUC Internal Power Cable 12 Inches 4 Pin to 4 Pin
   * https://www.gorite.com/intel-nuc-internal-power-cable-12-inches-4-pin-to-4-pin
 - [x] Nylon standoff kit
+  * https://www.amazon.com/gp/product/B01N9Q8YLE/
