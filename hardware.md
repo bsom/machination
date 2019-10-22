@@ -25,7 +25,7 @@
   * https://amzn.to/2BxoARU
 - [ ] Acrylic Display Mounting Panel
   * Laser cut in 3mm (or 1/8") acrylic
-- [x] StarTech UUSBHAUB6IN 6 inch USB cable
+- [x] StarTech UUSBHAUB6IN 6 inch Micro USB to USB A cable
   * https://amzn.to/31CHr8X
 - [x] 18" USB Micro to USB A cable
   * Should come with the WaveShare Display
