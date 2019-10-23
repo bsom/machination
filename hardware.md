@@ -8,7 +8,7 @@
   * https://amzn.to/35Uymvv
 - [x] Waveshare 5.5in HDMI AMOLED 1920x1080 Monitor AMOLED Capacitive Touch Screen
   * https://amzn.to/31G72O5
-- [x] Sabrent miniDP to HDMI Adapter
+- [x] Sabrent miniDP to HDMI Adapter (any number of adapters would work, I just happen to have this one)
   * https://amzn.to/2W6if9E
 - [x] PJRC Teensy 3.2
   * https://amzn.to/2JcVewm
