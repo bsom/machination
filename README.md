@@ -1,6 +1,6 @@
 # Machination
 
-Plot to create a Eurorack laptop-like PC with a simple embedded MIDI control surface
+Plot to create a hodge-podge Eurorack laptop-like PC with a simple embedded MIDI control surface
 
 - [x] Identify hardware to use
 - [x] Identify cabling to use
