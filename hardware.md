@@ -14,7 +14,7 @@
   * https://amzn.to/2JcVewm
 - [x] 8x DuPPa i2cEncoder v2.1 with RGB encoders and right-angle headers
   * https://www.tindie.com/products/saimon/i2cencoder-v21-connect-rotary-encoder-on-i2c-bus/
-- [x] 8x DuPPa Large Black Encoder Knobs
+- [x] 8x DuPPa Large Black Encoder Knobs (order with the above encoders)
   * https://cdn.tindiemedia.com/images/resize/uRAIfTKjbQK2f8lD7G_SOLtqw-M=/p/full-fit-in/2400x1600/i/59667/products/2018-12-07T21%3A12%3A30.715Z-Black_knob_2.jpg
 - [ ] Front Panel Express aluminum panel
 - [x] Gorite USB A Dual Female Panel Mount to 1X8 Pin Internal USB Connector - 9 in.
