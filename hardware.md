@@ -2,7 +2,7 @@
   * Intel® Core™ i5-5300U Processor
 - [x] 2x 4GB DDR3L-1866 SO-DIMMs
   * https://amzn.to/31vLyne
-- [x] Samsung 860 EVO SATA m.2 SSD (pick your size)
+- [x] Samsung 860 EVO SATA m.2 SSD (pick your size and manufacturer, I like Samsung)
   * https://amzn.to/2We0dTb
 - [x] SATA m.2 SSD Heatsink
   * https://amzn.to/35Uymvv
