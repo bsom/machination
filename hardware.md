@@ -23,7 +23,7 @@
   * https://amzn.to/32FfOxc
 - [x] Nylon standoff kit
   * https://amzn.to/2BxoARU
-- [ ] Acrylic Display Mounting Panel
+- [x] Acrylic Display Mounting Panel 150mm x 100mm
   * Laser cut in 3mm (or 1/8") acrylic, color doesn't matter as it is hidden
 - [x] StarTech UUSBHAUB6IN 6 inch Micro USB to USB A cable
   * https://amzn.to/31CHr8X
