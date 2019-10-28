@@ -8,35 +8,40 @@ const int IntPin = 17; //Interrupt Pin
 i2cEncoderLibV2 Encoder();
 //Class initialization with the I2C addresses
 i2cEncoderLibV2 RGBEncoder[ENCODER_N] = { i2cEncoderLibV2(0b0000001), i2cEncoderLibV2(0b0000010), i2cEncoderLibV2(0b0000011), i2cEncoderLibV2(0b0000100),
-                                          i2cEncoderLibV2(0b0000101), i2cEncoderLibV2(0b0000110), i2cEncoderLibV2(0b1000111), i2cEncoderLibV2(0b0001000)
+                                          i2cEncoderLibV2(0b0000101), i2cEncoderLibV2(0b0000110), i2cEncoderLibV2(0b0000111), i2cEncoderLibV2(0b0001000)
                                         };
 
 uint8_t encoder_status, i;
 
 void encoder_rotated(i2cEncoderLibV2* obj) {
-  if (obj->readStatus(i2cEncoderLibV2::RINC))
-    Serial.print("Increment ");
-  else
-    Serial.print("Decrement ");
-  Serial.print(obj->id);
-  Serial.print(": ");
-  Serial.println(obj->readCounterInt());
-  obj->writeRGBCode(0x00FF00);
+  if (obj->readStatus(i2cEncoderLibV2::RINC)){
+    //Serial.print("Increment ");
+    obj->writeRGBCode(0x00FF00);}
+  else{
+    //Serial.print("Decrement ");
+    obj->writeRGBCode(0xFF0000);}
+  //Serial.print(obj->id);
+  //Serial.print(": ");
+  //Serial.println(obj->readCounterInt());
+  
 }
 
 void encoder_click(i2cEncoderLibV2* obj) {
-  Serial.print("Push: ");
-  Serial.println(obj->id);
-  obj->writeRGBCode(0x0000FF);
+  //Serial.print("Push: ");
+  //Serial.println(obj->id);
+  usbMIDI.sendNoteOn(obj->readCounterInt(),127,(obj->id)+1);
+  obj->writeRGBCode(0xFFFFFF);
+  usbMIDI.sendNoteOn(obj->readCounterInt(),0,(obj->id)+1);
 }
 
+
 void encoder_thresholds(i2cEncoderLibV2* obj) {
-  if (obj->readStatus(i2cEncoderLibV2::RMAX))
-    Serial.print("Max: ");
-  else
-    Serial.print("Min: ");
-  Serial.println(obj->id);
+  if (!(obj->readStatus(i2cEncoderLibV2::RMAX)))
   obj->writeRGBCode(0xFF0000);
+}
+
+void encoder_fade(i2cEncoderLibV2* obj) {
+  obj->writeRGBCode(0x000000);
 }
 
 void setup() {
@@ -69,30 +74,33 @@ void setup() {
     RGBEncoder[enc_cnt].writeMin((int32_t) 0); //Set the minimum threshold to 0
     RGBEncoder[enc_cnt].writeStep((int32_t) 1); //The step at every encoder click is 1
     RGBEncoder[enc_cnt].writeRGBCode(0x000000); //Turn off LEDs
-    RGBEncoder[enc_cnt].writeAntibouncingPeriod(20); //200ms of debouncing
+    RGBEncoder[enc_cnt].writeAntibouncingPeriod(25); //200ms of debouncing
 
     // encoder events
     RGBEncoder[enc_cnt].onChange = encoder_rotated;
     RGBEncoder[enc_cnt].onButtonPush = encoder_click;
     RGBEncoder[enc_cnt].onMinMax = encoder_thresholds;
+    RGBEncoder[enc_cnt].onFadeProcess = encoder_fade;
 
     // Enable the I2C Encoder V2 interrupts
     RGBEncoder[enc_cnt].autoconfigInterrupt();
     RGBEncoder[enc_cnt].id = enc_cnt;
 
+
     //Blink after configuration of encoder as LED/config test
     RGBEncoder[enc_cnt].writeRGBCode(0xFF0000);
-    delay(20);
+    delay(90);
     RGBEncoder[enc_cnt].writeRGBCode(0x00FF00);
-    delay(20);
+    delay(90);
     RGBEncoder[enc_cnt].writeRGBCode(0x0000FF);
-    delay(20);
-    RGBEncoder[enc_cnt].writeRGBCode(0xFFFFFF);
-    delay(20);
+    delay(90);
     RGBEncoder[enc_cnt].writeRGBCode(0x000000);
+    delay(90);
     digitalWrite(13,HIGH);
     delay(10);
     digitalWrite(13,LOW);
+
+    RGBEncoder[enc_cnt].writeFadeRGB(1);
   }
 }
 
