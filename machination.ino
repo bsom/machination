@@ -20,6 +20,7 @@ void encoder_rotated(i2cEncoderLibV2* obj) {
   else{
     //Serial.print("Decrement ");
     obj->writeRGBCode(0xFF0000);}
+  usbMIDI.sendNoteOn(obj->readCounterInt(),127,(obj->id)+9);
   //Serial.print(obj->id);
   //Serial.print(": ");
   //Serial.println(obj->readCounterInt());
@@ -74,7 +75,7 @@ void setup() {
     RGBEncoder[enc_cnt].writeMin((int32_t) 0); //Set the minimum threshold to 0
     RGBEncoder[enc_cnt].writeStep((int32_t) 1); //The step at every encoder click is 1
     RGBEncoder[enc_cnt].writeRGBCode(0x000000); //Turn off LEDs
-    RGBEncoder[enc_cnt].writeAntibouncingPeriod(25); //200ms of debouncing
+    RGBEncoder[enc_cnt].writeAntibouncingPeriod(35); //350ms of debouncing
 
     // encoder events
     RGBEncoder[enc_cnt].onChange = encoder_rotated;
@@ -96,9 +97,6 @@ void setup() {
     delay(90);
     RGBEncoder[enc_cnt].writeRGBCode(0x000000);
     delay(90);
-    digitalWrite(13,HIGH);
-    delay(10);
-    digitalWrite(13,LOW);
 
     RGBEncoder[enc_cnt].writeFadeRGB(1);
   }
