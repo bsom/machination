@@ -15,3 +15,4 @@ The Teensy-based MINI controller code here is designed for a workflow that I use
 - [X] Configure AMOLED display in Windows (resolution, zoom, orientation)
 - [ ] Design front panel with standoffs for display and NUC
 - [ ] Order front panel from Front Panel Express
+- [ ] Experiment with full screen Python application for easier display versus tiny Ableton Live screen
