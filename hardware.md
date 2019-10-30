@@ -21,8 +21,8 @@
   * https://www.gorite.com/usb-a-dual-female-panel-mount-to-1x8-pin-internal-usb-connector-9-inches-intl-2xusb-p8-9in
 - [x] Gorite Intel NUC Internal Power Cable 12 Inches 4 Pin to 4 Pin
   * https://amzn.to/33Tsv80
-- [x] 5-pin single row 2.54mm female header to bare wire (or finished header-to-header cable with one end cut)
-  * https://amzn.to/32FfOxc
+- [x] Schmartboard 3" Female-Female jumpers with single row header
+  * https://amzn.to/31Xx5ki
 - [x] Nylon standoff kit
   * https://amzn.to/2BxoARU
 - [x] Acrylic Display Mounting Panel 150mm x 100mm
