@@ -1,5 +1,6 @@
-- [x] Intel NUC NUC5i5MYBE
+- [x] Intel NUC NUC5i5MYBE board
   * Intel® Core™ i5-5300U Processor
+- [ ] Front Panel Express aluminum panel
 - [x] 2x 4GB DDR3L-1866 SO-DIMMs
   * https://amzn.to/31vLyne
 - [x] Samsung 860 EVO SATA m.2 SSD (pick your size and manufacturer, I like Samsung)
@@ -16,7 +17,6 @@
   * https://www.tindie.com/products/saimon/i2cencoder-v21-connect-rotary-encoder-on-i2c-bus/
 - [x] 8x DuPPa Large Black Encoder Knobs (order with the above encoders)
   * https://cdn.tindiemedia.com/images/resize/uRAIfTKjbQK2f8lD7G_SOLtqw-M=/p/full-fit-in/2400x1600/i/59667/products/2018-12-07T21%3A12%3A30.715Z-Black_knob_2.jpg
-- [ ] Front Panel Express aluminum panel
 - [x] Gorite USB A Dual Female Panel Mount to 1X8 Pin Internal USB Connector - 9 in.
   * https://www.gorite.com/usb-a-dual-female-panel-mount-to-1x8-pin-internal-usb-connector-9-inches-intl-2xusb-p8-9in
 - [x] Gorite Intel NUC Internal Power Cable 12 Inches 4 Pin to 4 Pin
