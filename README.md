@@ -17,3 +17,5 @@ The Teensy-based MIDI controller code here is designed for a workflow that I use
 - [ ] Order front panel from Front Panel Express
 - [ ] Experiment with full screen Python application for easier display versus tiny Ableton Live screen (Kivy?)
 - [ ] Create a virtual MIDI port to split MIDI from Teensy to Ableton and Python using LoopBe1 and MIDI Patchbay
+  * http://en.soundigy.com/midipatchbay.php
+  * https://www.nerds.de/en/loopbe1.html
