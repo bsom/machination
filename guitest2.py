@@ -104,7 +104,7 @@ clips = []
 for j in range(8):
     column=[]
     for k in range(128):
-        column.append([])
+        column.append("(empty)")
     clips.append(column)
 
 
@@ -145,14 +145,14 @@ class MidiInputHandler(object):
         
 
 class mainWindow(GridLayout):
-    button1Text = StringProperty('Encoder1\n1')
-    button2Text = StringProperty('Encoder1\n2')
-    button3Text = StringProperty('Encoder1\n3')
-    button4Text = StringProperty('Encoder1\n4')
-    button5Text = StringProperty('Encoder1\n5')
-    button6Text = StringProperty('Encoder1\n6')
-    button7Text = StringProperty('Encoder1\n7')
-    button8Text = StringProperty('Encoder1\n8')
+    button1Text = StringProperty('Encoder 1')
+    button2Text = StringProperty('Encoder 2')
+    button3Text = StringProperty('Encoder 3')
+    button4Text = StringProperty('Encoder 4')
+    button5Text = StringProperty('Encoder 5')
+    button6Text = StringProperty('Encoder 6')
+    button7Text = StringProperty('Encoder 7')
+    button8Text = StringProperty('Encoder 8')
     button1Color = ColorProperty()
     button2Color = ColorProperty()
     button3Color = ColorProperty()
@@ -168,7 +168,7 @@ class mainWindow(GridLayout):
     def update_button(self,knob,MIDImessage):
         buttonToChange = switch.get(knob)
         rootObj = App.get_running_app().root
-        setattr(rootObj,buttonToChange+"Text", "Encoder " + str(knob) + "\n" + str(MIDImessage)+"\n"+str(clips[knob-1][MIDImessage]))
+        setattr(rootObj,buttonToChange+"Text", "Encoder " + str(knob) + "\nRaw: " + str(MIDImessage)+"\n"+str(clips[knob-1][MIDImessage]))
         setattr(rootObj,buttonToChange+"Color",(MIDImessage/127,(knob/16.0)+0.5,1.0-(MIDImessage/127),1))
 
 class pyMachination(App):
