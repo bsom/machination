@@ -33,3 +33,5 @@
   * Should come with the WaveShare Display
 - [x] HDMI U-Turn adapter
   * Should come with the WaveShare Display
+- [x] Panel-mount power adapter jack 5.5mm x 2.1mm
+  * https://amzn.to/2WJQNit
