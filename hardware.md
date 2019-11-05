@@ -11,7 +11,7 @@
   * https://amzn.to/31G72O5
 - [x] Sabrent miniDP to HDMI Adapter (any number of adapters would work, I just happen to have this one)
   * https://amzn.to/2W6if9E
-- [x] PJRC Teensy 3.2
+- [x] PJRC Teensy 3.2 **WITHOUT HEADERS PRE-INSTALLED**
   * https://amzn.to/2JcVewm
 - [x] 8x DuPPa i2cEncoder v2.1 with RGB encoders and right-angle headers
   * https://www.tindie.com/products/saimon/i2cencoder-v21-connect-rotary-encoder-on-i2c-bus/
