@@ -1,5 +1,7 @@
 # Machination
 
+## This project is unproven as of yet.  Wait for the 1.0 release before attempting to replicate this project!
+
 Plot to create a hodge-podge Eurorack laptop-like PC with a simple embedded MIDI control surface.
 
 This project was designed for my use but I figure that someone else out there might find it interesting as well.
