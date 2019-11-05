@@ -17,7 +17,7 @@ The Teensy-based MIDI controller code here is designed for a workflow that I use
 - [X] Configure AMOLED display in Windows (resolution, zoom, orientation)
 - [ ] Design front panel with standoffs for display and NUC
 - [ ] Order front panel from Front Panel Express
-- [ ] Experiment with full screen Python application for easier display versus tiny Ableton Live screen (Kivy?)
+- [x] Experiment with full screen Python application for easier display versus tiny Ableton Live screen (Kivy and LiveOSC)
 - [ ] Create a virtual MIDI port to split MIDI from Teensy to Ableton and Python using LoopBe1 and MIDI Patchbay
   * http://en.soundigy.com/midipatchbay.php
   * https://www.nerds.de/en/loopbe1.html
