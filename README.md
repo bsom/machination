@@ -10,7 +10,7 @@ The Teensy-based MIDI controller code here is designed for a workflow that I use
 
 - [x] Identify hardware to use
 - [x] Identify cabling to use
-- [ ] Figure out how to mount Teensy (double-sided tape? carrier board?)
+- [x] Figure out how to mount Teensy (Seems like double-sided tape wins)
 - [x] Find power solution to power both display and NUC
 - [x] Figure out front panel footprint for USB header cable
 - [x] Program Teensy to read encoders and output MIDI to PC via USB
