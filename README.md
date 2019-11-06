@@ -8,6 +8,8 @@ This project was designed for my use but I figure that someone else out there mi
 
 The Teensy-based MIDI controller code here is designed for a workflow that I use with Ableton Live.  Instead of the encoders sending MIDI CC, they send MIDI notes, each encoder on its own MIDI channel.  The encoders select all MIDI notes from 0-127 and wrap back around when they overflow past 127 or below 0, sending the notes in a stream on MIDI channels 9-16.  When the encoder is pushed, it sends the currently selected note on MIDI channels 1-8.  This is a fast way for me to improvise using 100's of small clips in Ableton Live.
 
+Things that need to be done:
+
 - [x] Identify hardware to use
 - [x] Identify cabling to use
 - [x] Figure out how to mount Teensy (Seems like double-sided tape wins)
