@@ -37,3 +37,5 @@
   * https://amzn.to/2WJQNit
 - [ ] Uxcell Foam Seal Tape, 5mm Wide x 1mm Thick (length doesn't matter)
   * https://amzn.to/2pPP6Ux
+- [ ] Heatshrink tubing kit
+  * https://amzn.to/2QqiBaa
