@@ -1,6 +1,7 @@
 # Machination
 
 ## This project is unproven as of yet.  Wait for the 1.0 release before attempting to replicate this project!
+Current Progress: 🔵🔵🔵🔵🔵🔵🔵🔵🔵⚪️⚪️⚪️⚪️⚪️
 
 Plot to create a hodge-podge Eurorack laptop-like PC with a simple embedded MIDI control surface.  The idea was to use off-the-shelf parts as much as possible.  There is only one 'custom' internal piece that needs to be laser cut.  Everything else internal is readily available online.
 
