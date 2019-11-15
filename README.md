@@ -3,6 +3,8 @@
 ## This project is unproven as of yet.  Wait for the 1.0 release before attempting to replicate this project!
 Current Progress: 🔵🔵🔵🔵🔵🔵🔵🔵🔵⚪️⚪️⚪️⚪️⚪️
 
+#### Check the WIKI for building instructions (which are still under construction, but progressing nicely!)
+
 Plot to create a hodge-podge Eurorack laptop-like PC with a simple embedded MIDI control surface.  The idea was to use off-the-shelf parts as much as possible.  There is only one 'custom' internal piece that needs to be laser cut.  Everything else internal is readily available online.
 
 This project was designed for my use but I figure that someone else out there might find it interesting as well.
