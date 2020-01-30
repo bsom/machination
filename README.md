@@ -1,7 +1,7 @@
 # Machination
 
 ## This project is unproven as of yet.  Wait for the 1.0 release before attempting to replicate this project!
-Current Progress: 🔵🔵🔵🔵🔵🔵🔵🔵🔵⚪️⚪️⚪️⚪️⚪️
+Current Progress: 🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵⚪️⚪️⚪️⚪️
 
 #### Check the WIKI for building instructions (which are still under construction, but progressing nicely!)
 
