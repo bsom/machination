@@ -35,7 +35,7 @@
   * Should come with the WaveShare Display
 - [x] Panel-mount power adapter jack 5.5mm x 2.1mm
   * https://amzn.to/2WJQNit
-- [ ] Panel-mount miniDisplayPort adapter
+- [x] Panel-mount miniDisplayPort adapter
   * https://amzn.to/3a9rIDW
 - [x] Uxcell Foam Seal Tape, 5mm Wide x 1mm Thick (length doesn't matter)
   * https://amzn.to/2pPP6Ux
