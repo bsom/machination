@@ -1,5 +1,8 @@
 # Machination
 
+![alt text](https://github.com/bsom/machination/blob/master/images/panel_image.jpg?raw=true)
+
+
 ## This project is unproven as of yet.  Wait for the 1.0 release before attempting to replicate this project!
 Current Progress: 🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵⚪️⚪️⚪️⚪️
 
