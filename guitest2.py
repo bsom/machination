@@ -179,7 +179,7 @@ class pyMachination(App):
         except (EOFError, KeyboardInterrupt):
             sys.exit()
 
-        #attach MIDI imput interrupt handler
+        #attach MIDI in put interrupt handler
         midiin.set_callback(MidiInputHandler(port_name))
 
         self.main_screen = mainWindow()
