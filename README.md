@@ -4,7 +4,7 @@
 
 
 ## This project is unproven as of yet.  Wait for the 1.0 release before attempting to replicate this project!
-Current Progress: 🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵⚪️⚪️⚪️⚪️
+Current Progress: 🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵🔵⚪️⚪️⚪️
 
 #### Check the WIKI for building instructions (which are still under construction, but progressing nicely!)
 
@@ -26,6 +26,6 @@ Things that need to be done:
 - [x] Design front panel with standoffs for display and NUC
 - [x] Order front panel from Front Panel Express
 - [x] Experiment with full screen Python application for easier display versus tiny Ableton Live screen (Kivy and LiveOSC)
-- [ ] Create a virtual MIDI port to split MIDI from Teensy to Ableton and Python using LoopBe1 and MIDI Patchbay
+- [x] Create a virtual MIDI port to split MIDI from Teensy to Ableton and Python using LoopBe1 and MIDI Patchbay
   * http://en.soundigy.com/midipatchbay.php
   * https://www.nerds.de/en/loopbe1.html
