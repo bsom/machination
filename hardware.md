@@ -41,3 +41,5 @@
   * https://amzn.to/2pPP6Ux
 - [x] Heatshrink tubing kit
   * https://amzn.to/2QqiBaa
+- [ ] Combo Power Switch/ Power LED
+  * https://www.amazon.com/uxcell-Momentary-Button-Switch-Mounting/dp/B07HFX4M6Z
