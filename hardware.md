@@ -45,3 +45,5 @@
   * https://www.amazon.com/uxcell-Momentary-Button-Switch-Mounting/dp/B07HFX4M6Z
 - [x] Scotch Foam Mounting Tape
   * https://www.amazon.com/Scotch-Permanent-Mounting-Tape-Inches/dp/B00347A8GC
+- [ ] Micro SATA Cables Internal 2mm Rectangular Connector 10 Pin Female to Male 12 Inches
+  * https://www.amazon.com/Internal-Rectangular-Connector-Female-Inches/dp/B01I5WJHKI
