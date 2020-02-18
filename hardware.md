@@ -41,7 +41,7 @@
   * https://amzn.to/2pPP6Ux
 - [x] Heatshrink tubing kit
   * https://amzn.to/2QqiBaa
-- [ ] Combo Power Switch/ Power LED
+- [X] Combo Power Switch/ Power LED
   * https://www.amazon.com/uxcell-Momentary-Button-Switch-Mounting/dp/B07HFX4M6Z
 - [x] Scotch Foam Mounting Tape
   * https://www.amazon.com/Scotch-Permanent-Mounting-Tape-Inches/dp/B00347A8GC
