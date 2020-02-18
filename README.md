@@ -25,7 +25,8 @@ Things that need to be done:
 - [x] Program Teensy to read encoders and output MIDI to PC via USB
 - [X] Configure AMOLED display in Windows (resolution, zoom, orientation)
 - [x] Design front panel with standoffs for display and NUC
-- [x] Order front panel from Front Panel Express
+- [x] Order test front panel from Front Panel Express
+- [ ] Order FINAL front panel from Front Panel Express
 - [x] Experiment with full screen Python application for easier display versus tiny Ableton Live screen (Kivy and LiveOSC)
 - [x] Create a virtual MIDI port to split MIDI from Teensy to Ableton and Python using loopMIDI
   * http://www.tobias-erichsen.de/software/loopmidi.html
