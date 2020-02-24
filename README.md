@@ -13,7 +13,7 @@ Plot to create a hodge-podge Eurorack laptop-like PC with a simple embedded MIDI
 
 This project was designed for my use but I figure that someone else out there might find it interesting as well.
 
-The Teensy-based MIDI controller code here is designed for a workflow that I use with Ableton Live.  Instead of the encoders sending MIDI CC, they send MIDI notes, each encoder on its own MIDI channel.  The encoders select all MIDI notes from 0-127 and wrap back around when they overflow past 127 or below 0, sending the notes in a stream on MIDI channels 9-16 to my Python script to update the on-screen display.  When the encoder is pushed, it sends the currently selected note on MIDI channels 1-8 instead.  The Python script passes these values (Channels 1-8) onto Ableton Live to trigger loops. This is a fast way for me to improvise using 100's of small clips in Ableton Live.
+The Teensy-based MIDI controller code here is designed for a workflow that I use with Ableton Live.  Instead of the encoders sending MIDI CC, they send MIDI notes, each encoder on its own MIDI channel.  The encoders select all MIDI notes from 0-127 and wrap back around when they overflow past 127 or below 0, sending the notes in a stream on MIDI channels 9-16 to my Python script to update the on-screen display.  When the encoder is pushed, it sends the currently selected note on MIDI channels 1-8 instead.  The Python script passes these values (Channels 1-8 only) onto Ableton Live to trigger loops. This is a fast way for me to improvise using 100's of small clips in Ableton Live.
 
 Things that need to be done:
 
