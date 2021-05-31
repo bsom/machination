@@ -48,11 +48,11 @@ clip_colors = {
 
 Builder.load_string('''
 <mainWindow>:
-    orientation: 'horizontal'
+    orientation: 'lr-tb'
     cols: 4
     rows: 2
     GridLayout:
-        orientation: 'horizontal'
+        orientation: 'lr-tb'
         cols: 4
         rows: 2
         Button:
@@ -139,9 +139,9 @@ for j in range(8):
     clips.append(column)
 
 def printOutput(address: str, *args: List[Any]) -> None:
-    if len(args) > 3:
-        clips[args[0]][args[1]]=(args[2],args[3])
-        print(args[2] + " " + str(hex(args[3])))
+    clips[args[0]][args[1]]=(args[2],args[3])
+    print("Track:" + str(args[0] + 1) + " | Clip:" + str(args[1] + 1) + " | Clip name:" + args[2] + " | Color:" + str(hex(args[3])))
+
 
 def getclipname(server,client,track,clip):
     client.send_message("/live/name/clip",(track,clip))
@@ -239,8 +239,9 @@ class pyMachination(App):
             print("Scanning Track " + str(track+1))
             for clip in range (127):
                 try:
-                    func_timeout(0.05,getclipname,args=(server,client,track,clip))
+                    func_timeout(0.25,getclipname,args=(server,client,track,clip))
                 except FunctionTimedOut:
+                    break
                     continue
                 
 
