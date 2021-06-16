@@ -27,6 +27,4 @@ Things that need to be done:
 - [x] Design front panel with standoffs for display and NUC
 - [x] Order test front panel from Front Panel Express
 - [ ] Order FINAL front panel from Front Panel Express
-- [x] Experiment with full screen Python application for easier display versus tiny Ableton Live screen (Kivy and LiveOSC)
-- [x] Create a virtual MIDI port to split MIDI from Teensy to Ableton and Python using loopMIDI
-  * http://www.tobias-erichsen.de/software/loopmidi.html
+- [x] Write full screen Python application for easier display/interaction versus tiny Ableton Live screen, using Kivy and AbletonOSC
