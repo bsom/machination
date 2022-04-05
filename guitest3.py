@@ -1,21 +1,28 @@
 import sys
-from ctypes import windll
 
+# Make Kivy window Windows Scaling Aware
+from ctypes import windll
 windll.user32.SetProcessDpiAwarenessContext(-4)
 
+# PythonOSC Dependencies
 from pythonosc.dispatcher import Dispatcher
 from pythonosc.osc_server import BlockingOSCUDPServer
 from pythonosc.udp_client import SimpleUDPClient
 
+# Color Value Manipulation
 from colors import rgb
 from colors import hex as _hex
 
+# MIDI I/O
 import mido
 
+# Function Timeout
 from func_timeout import func_timeout, FunctionTimedOut
 
+# List Manipulation
 from typing import List, Any
 
+# Kivy Window Config
 from kivy.config import Config
 Config.set('graphics','borderless',1)
 Config.set('graphics', 'width', 1920)
@@ -23,6 +30,7 @@ Config.set('graphics', 'height', 1080)
 Config.set('graphics', 'resizable', 0)
 Config.write()
 
+# Kivy Dependencies
 from kivy.app import App
 from kivy.lang import Builder
 from kivy.uix.label import Label
@@ -32,6 +40,7 @@ from kivy.clock import Clock
 from kivy.properties import StringProperty
 from kivy.properties import ColorProperty
 
+# Ableton Live 11 Clip Colors
 all_clip_colors = {
         "0xee97a5": 1, "0xf0a648": 2, "0xc29841": 3, "0xf7f28a": 4, "0xccf84e": 5, "0x7dfa57": 6, "0x7efaad": 7,
         "0x8ffbe7": 8, "0x96c3fa": 9, "0x5d80dc":10, "0x94a6f9":11, "0xc773dd":12, "0xd15e9c":13, "0xffffff":14,
@@ -45,7 +54,7 @@ all_clip_colors = {
         "0x396280":64, "0x23358f":65, "0x39549b":66, "0x5d4fa6":67, "0x9553a6":68, "0xb83f6d":69, "0x3e3e3e":70
         }
 
-
+# Kivy Window Builder
 Builder.load_string('''
 <mainWindow>:
     orientation: 'lr-tb'
@@ -176,12 +185,14 @@ Builder.load_string('''
 
 class pyMachination(App):
     def build(self):
-
+        
+        # Setup/Start OSC
         osc.setup()
         osc.get_version()
         osc.get_tempo()
-
-        print("Getting clip names...")
+        
+        #Get Clip Names and colors
+        print("Getting clip names and colors...")
         for track in range(8):
             print("Scanning Track " + str(track+1))
             for clip in range (127):
