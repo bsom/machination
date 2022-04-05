@@ -1,6 +1,6 @@
 - [x] Intel NUC NUC5i5MYBE board
   * Intel® Core™ i5-5300U Processor
-- [ ] Front Panel Express aluminum panel
+- [x] Front Panel Express aluminum panel
 - [x] 2x 4GB DDR3L-1866 SO-DIMMs
   * https://amzn.to/31vLyne
 - [x] Samsung 860 EVO SATA m.2 SSD (pick your size and manufacturer, I like Samsung)
