@@ -26,5 +26,5 @@ Things that need to be done:
 - [X] Configure AMOLED display in Windows (resolution, zoom, orientation)
 - [x] Design front panel with standoffs for display and NUC
 - [x] Order test front panel from Front Panel Express
-- [ ] Order FINAL front panel from Front Panel Express
-- [x] Write full screen Python application for easier display/interaction versus tiny Ableton Live screen, using [Kivy](https://kivy.org/) and [AbletonOSC](https://github.com/ideoforms/AbletonOSC)
+- [x] Order FINAL front panel from Front Panel Express
+- [ ] Write full screen Python application for easier display/interaction versus tiny Ableton Live screen, using [Kivy](https://kivy.org/) and [AbletonOSC](https://github.com/ideoforms/AbletonOSC)
