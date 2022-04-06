@@ -1,9 +1,9 @@
 #include <Wire.h>
 #include <i2cEncoderLibV2.h>
 
-// constants
+// Constants
 const int IntPin = 17; //Interrupt Pin
-#define ENCODER_N 8 //Number of encoders
+#define ENCODER_N 8 //Number of Encoders
 const unsigned long colorTable[] = {0xff94a6,0xffa529,0xcc9927,0xf7f47c,0xbffb00,0x1aff2f,0x25ffa8,
                                     0x5cffe8,0x8bc5ff,0x5480e4,0x92a7ff,0xd86ce4,0xe553a0,0xffffff,
                                     0xff3636,0xf66c03,0x99724b,0xfff034,0x87ff67,0x3dc300,0xbfaf  ,
@@ -16,7 +16,7 @@ const unsigned long colorTable[] = {0xff94a6,0xffa529,0xcc9927,0xf7f47c,0xbffb00
                                     0x236384,0x1a2f96,0x2f52a2,0x624bad,0xa34bad,0xcc2e6e,0x3c3c3c};
 
 i2cEncoderLibV2 Encoder();
-//Class initialization with the I2C addresses
+// Class Initialization with the i2c Addresses
 i2cEncoderLibV2 RGBEncoder[ENCODER_N] = { i2cEncoderLibV2(0b0000001), i2cEncoderLibV2(0b0000010), i2cEncoderLibV2(0b0000011), i2cEncoderLibV2(0b0000100),
                                           i2cEncoderLibV2(0b0000101), i2cEncoderLibV2(0b0000110), i2cEncoderLibV2(0b0000111), i2cEncoderLibV2(0b0001000)
                                         };
@@ -25,29 +25,23 @@ uint8_t encoder_status, i;
 
 void encoder_rotated(i2cEncoderLibV2* obj) {
   if (obj->readStatus(i2cEncoderLibV2::RINC)){
-    //Serial.print("Increment \n");
+    // nothing
     }
   else{
-    //Serial.print("Decrement \n");
+    // nothing
     }
     
   usbMIDI.sendNoteOn(obj->readCounterInt(),127,(obj->id)+9);
-  //Serial.print(obj->id);
-  //Serial.print(": ");
-  //Serial.println(obj->readCounterInt());
   
 }
 
 void encoder_click(i2cEncoderLibV2* obj) {
-  Serial.print("Push: ");
-  Serial.println(obj->id);
   usbMIDI.sendNoteOn(obj->readCounterInt(),127,(obj->id)+1);
 }
 
 
 void encoder_thresholds(i2cEncoderLibV2* obj) {
-  //if (!(obj->readStatus(i2cEncoderLibV2::RMAX)))
-  //obj->writeRGBCode(0xFF0000);
+  // nothing
 }
 
 void encoder_fade(i2cEncoderLibV2* obj) {
@@ -68,23 +62,23 @@ void onCC(byte channel, byte control, byte value){
 void setup() {
   uint8_t enc_cnt;
 
-  //start i2c library
+  // Start i2c Library
   Wire.begin();
 
   usbMIDI.setHandleControlChange(onCC);
   
-  //Reset all of the encoders
+  // Reset All of the Encoders
   for (enc_cnt = 0; enc_cnt < ENCODER_N; enc_cnt++) {
     RGBEncoder[enc_cnt].reset();
   }
 
-  //config interrupt pin
+  // Config Interrupt Pin
   pinMode(IntPin, INPUT);
 
-  //debug LED
+  // Debug LED
   pinMode(13,OUTPUT);
 
-  // Initialize the encoders
+  // Initialize the Encoders
   for (enc_cnt = 0; enc_cnt < ENCODER_N; enc_cnt++) {
     RGBEncoder[enc_cnt].begin(
       i2cEncoderLibV2::INT_DATA | i2cEncoderLibV2::WRAP_ENABLE
@@ -96,21 +90,21 @@ void setup() {
     RGBEncoder[enc_cnt].writeMax((int32_t) 127); //Set the maximum threshold to 127
     RGBEncoder[enc_cnt].writeMin((int32_t) 0); //Set the minimum threshold to 0
     RGBEncoder[enc_cnt].writeStep((int32_t) 1); //The step at every encoder click is 1
-    RGBEncoder[enc_cnt].writeRGBCode(0x000000); 
+    RGBEncoder[enc_cnt].writeRGBCode(0x000000); //Turn off encoder LED
     RGBEncoder[enc_cnt].writeAntibouncingPeriod(35); //350ms of debouncing
 
-    // encoder events
+    // Encoder Events
     RGBEncoder[enc_cnt].onChange = encoder_rotated;
     RGBEncoder[enc_cnt].onButtonPush = encoder_click;
     RGBEncoder[enc_cnt].onMinMax = encoder_thresholds;
     RGBEncoder[enc_cnt].onFadeProcess = encoder_fade;
 
-    // Enable the I2C Encoder V2 interrupts
+    // Enable the i2c Encoder V2 Interrupts
     RGBEncoder[enc_cnt].autoconfigInterrupt();
     RGBEncoder[enc_cnt].id = enc_cnt;
 
 
-    //Blink after configuration of encoder as LED/config test
+    // Color Cycle RGB After Configuration of Encoder as LED/Config Test
     RGBEncoder[enc_cnt].writeFadeRGB(0);
     RGBEncoder[enc_cnt].writeRGBCode(0xFF0000);
     delay(90);
@@ -124,12 +118,11 @@ void setup() {
 }
 
 void loop() {
-
   usbMIDI.read();
   uint8_t enc_cnt;
   
   if (digitalRead(IntPin) == LOW) {
-    //Interrupt from the encoders, start to scan the encoder matrix
+    //Interrupt from he Encoders, Start to Scan the Encoder Matrix
     for (enc_cnt = 0; enc_cnt < ENCODER_N; enc_cnt++) {
       if (digitalRead(IntPin) == HIGH) { //If the interrupt pin return high, exit from the encoder scan
         break;
