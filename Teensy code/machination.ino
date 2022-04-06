@@ -49,12 +49,12 @@ void encoder_fade(i2cEncoderLibV2* obj) {
 }
 
 void onCC(byte channel, byte control, byte value){
-      Serial.print(int(channel));
-      Serial.print("\n");
-      Serial.print(int(control));
-      Serial.print("\n");
-      Serial.print(int(value));
-      Serial.print("\n\n");
+      //Serial.print(int(channel));
+      //Serial.print("\n");
+      //Serial.print(int(control));
+      //Serial.print("\n");
+      //Serial.print(int(value));
+      //Serial.print("\n\n");
       RGBEncoder[channel-1].writeRGBCode(colorTable[value-1]);
 }
 
