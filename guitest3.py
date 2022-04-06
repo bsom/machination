@@ -356,7 +356,7 @@ class mainWindow(GridLayout):
             outMessage = mido.Message('control_change',channel=knob-1,control=1,value=clip_number)
             OutToTeensy.send(outMessage)
         else:
-            outMessage = mido.Message('control_change',channel=knob-1,control=1,value=61)
+            outMessage = mido.Message('control_change',channel=knob-1,control=1,value=71)
             OutToTeensy.send(outMessage)
         
 
