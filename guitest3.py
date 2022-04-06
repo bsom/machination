@@ -223,7 +223,7 @@ class know_future:
             column_color=[]
             for k in range(128):
                 column_clips.append("empty")
-                column_color.append(0x191919)
+                column_color.append(0x000000)
             self.clips.append(column_clips)
             self.clip_colors.append(column_color)
         self.dispatcher = Dispatcher()
@@ -340,7 +340,7 @@ class mainWindow(GridLayout):
         rootObj = App.get_running_app().root
         buttonToChange = switch.get(knob)
         hexcolor = str(hex(osc.clip_colors[knob-1][value]))
-        if hexcolor != "0x191919":
+        if hexcolor != "0x000000":
             rgbcolor = hex_to_rgb(hexcolor.lstrip('0x'))
             rgbcolor = rgbcolor+(1,)
             text_color = "000000"
