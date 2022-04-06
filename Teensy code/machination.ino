@@ -96,7 +96,7 @@ void setup() {
     RGBEncoder[enc_cnt].writeMax((int32_t) 127); //Set the maximum threshold to 127
     RGBEncoder[enc_cnt].writeMin((int32_t) 0); //Set the minimum threshold to 0
     RGBEncoder[enc_cnt].writeStep((int32_t) 1); //The step at every encoder click is 1
-    RGBEncoder[enc_cnt].writeRGBCode(0x191919); 
+    RGBEncoder[enc_cnt].writeRGBCode(0x000000); 
     RGBEncoder[enc_cnt].writeAntibouncingPeriod(35); //350ms of debouncing
 
     // encoder events
@@ -118,7 +118,7 @@ void setup() {
     delay(90);
     RGBEncoder[enc_cnt].writeRGBCode(0x0000FF);
     delay(90);
-    RGBEncoder[enc_cnt].writeRGBCode(0x191919);
+    RGBEncoder[enc_cnt].writeRGBCode(0x000000);
     delay(90);
   }
 }
