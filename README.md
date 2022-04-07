@@ -5,7 +5,7 @@
 
 ## This project is unproven as of yet.  Wait for the 1.0 release before attempting to replicate this project!
 
-Current Progress: ███████████████████████████████████████████░░░░░░░ 89%
+Current Progress: ███████████████████████████████████████████████░ 98%
 
 #### Check the WIKI for building instructions (which are still under construction, but progressing nicely!)
 
@@ -27,4 +27,4 @@ Things that need to be done:
 - [x] Design front panel with standoffs for display and NUC
 - [x] Order test front panel from Front Panel Express
 - [x] Order FINAL front panel from Front Panel Express
-- [ ] Write full screen Python application for easier display/interaction versus tiny Ableton Live screen, using [Kivy](https://kivy.org/) and [AbletonOSC](https://github.com/ideoforms/AbletonOSC)
+- [x] Write full screen Python application for easier display/interaction versus tiny Ableton Live screen, using [Kivy](https://kivy.org/) and [AbletonOSC](https://github.com/ideoforms/AbletonOSC)
