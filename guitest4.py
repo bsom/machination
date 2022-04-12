@@ -76,12 +76,14 @@ Builder.load_string('''
                 size: self.parent.size
                 Label:
                     text_size: self.width, None
+                    font_name: root.fontName
                     text: root.button1Text
                     font_size: 48
                     size_hint_y: None
                     markup: True
                 Label:
                     text_size: self.width, None
+                    font_name: root.fontName
                     text: root.button1Text2
                     font_size: 36
                     size_hint_y: None
@@ -98,13 +100,17 @@ Builder.load_string('''
                 Label:
                     text_size: self.width, None
                     text: root.button2Text
-                    font_size: 48
+                    font_name: root.fontName
+                    font_size: 32
+                    padding: dp(10),dp(10)
                     size_hint_y: None
                     markup: True
                 Label:
                     text_size: self.width, None
+                    font_name: root.fontName
                     text: root.button2Text2
-                    font_size: 36
+                    font_size: 64
+                    padding: dp(40),dp(40)
                     size_hint_y: None
                     markup: True
         Button:
@@ -119,11 +125,14 @@ Builder.load_string('''
                 Label:
                     text_size: self.width, None
                     text: root.button3Text
-                    font_size: 48
+                    font_name: root.fontName
+                    font_size: 32
+                    padding: dp(10),dp(10)
                     size_hint_y: None
                     markup: True
                 Label:
                     text_size: self.width, None
+                    font_name: root.fontName
                     text: root.button3Text2
                     font_size: 36
                     size_hint_y: None
@@ -139,12 +148,13 @@ Builder.load_string('''
                 size: self.parent.size
                 Label:
                     text_size: self.width, None
+                    font_name: root.fontName
                     text: root.button4Text
-                    font_size: 48
                     size_hint_y: None
                     markup: True
                 Label:
                     text_size: self.width, None
+                    font_name: root.fontName
                     text: root.button4Text2
                     font_size: 36
                     size_hint_y: None
@@ -160,12 +170,14 @@ Builder.load_string('''
                 size: self.parent.size
                 Label:
                     text_size: self.width, None
+                    font_name: root.fontName
                     text: root.button5Text
                     font_size: 48
                     size_hint_y: None
                     markup: True
                 Label:
                     text_size: self.width, None
+                    font_name: root.fontName
                     text: root.button5Text2
                     font_size: 36
                     size_hint_y: None
@@ -181,12 +193,14 @@ Builder.load_string('''
                 size: self.parent.size
                 Label:
                     text_size: self.width, None
+                    font_name: root.fontName
                     text: root.button6Text
                     font_size: 48
                     size_hint_y: None
                     markup: True
                 Label:
                     text_size: self.width, None
+                    font_name: root.fontName
                     text: root.button6Text2
                     font_size: 36
                     size_hint_y: None
@@ -202,12 +216,14 @@ Builder.load_string('''
                 size: self.parent.size
                 Label:
                     text_size: self.width, None
+                    font_name: root.fontName
                     text: root.button7Text
                     font_size: 48
                     size_hint_y: None
                     markup: True
                 Label:
                     text_size: self.width, None
+                    font_name: root.fontName
                     text: root.button7Text2
                     font_size: 36
                     size_hint_y: None
@@ -223,12 +239,14 @@ Builder.load_string('''
                 size: self.parent.size
                 Label:
                     text_size: self.width, None
+                    font_name: root.fontName
                     text: root.button8Text
                     font_size: 48
                     size_hint_y: None
                     markup: True
                 Label:
                     text_size: self.width, None
+                    font_name: root.fontName
                     text: root.button8Text2
                     font_size: 36
                     size_hint_y: None
@@ -435,6 +453,7 @@ class mainWindow(GridLayout):
 	button7Color = ColorProperty([0.1,0.1,0.1,1])
 	button8Color = ColorProperty([0.1,0.1,0.1,1])
 	statusLabelText = StringProperty('....')
+	fontName = StringProperty('data-latin.ttf')
 
 	def __init__(self, **kwargs):
 		super(mainWindow, self).__init__(**kwargs)
