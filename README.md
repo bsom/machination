@@ -28,3 +28,4 @@ Things that need to be done:
 - [x] Order test front panel from Front Panel Express
 - [x] Order FINAL front panel from Front Panel Express
 - [x] Write full screen Python application for easier display/interaction versus tiny Ableton Live screen, using [Kivy](https://kivy.org/) and [AbletonOSC](https://github.com/ideoforms/AbletonOSC)
+- [ ] Make it pretty!
