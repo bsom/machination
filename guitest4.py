@@ -70,7 +70,8 @@ Builder.load_string('''
             id: button1
             background_color: root.button1Color
             canvas:
-                Color: root.button1Color
+                Color: 
+                    rgb: root.button1Color
                 RoundedRectangle:
                     size: self.size
                     pos: self.pos
@@ -106,7 +107,8 @@ Builder.load_string('''
             id: button2
             background_color: root.button2Color
             canvas:
-                Color: root.button2Color
+                Color: 
+                    rgb: root.button2Color
                 RoundedRectangle:
                     size: self.size
                     pos: self.pos
@@ -142,7 +144,8 @@ Builder.load_string('''
             id: button3
             background_color: root.button3Color
             canvas:
-                Color: root.button3Color
+                Color: 
+                    rgb: root.button3Color
                 RoundedRectangle:
                     size: self.size
                     pos: self.pos
@@ -178,7 +181,8 @@ Builder.load_string('''
             id: button4
             background_color: root.button4Color
             canvas:
-                Color: root.button4Color
+                Color: 
+                    rgb: root.button4Color
                 RoundedRectangle:
                     size: self.size
                     pos: self.pos
@@ -214,7 +218,8 @@ Builder.load_string('''
             id: button5
             background_color: root.button5Color
             canvas:
-                Color: root.button5Color
+                Color: 
+                    rgb: root.button5Color
                 RoundedRectangle:
                     size: self.size
                     pos: self.pos
@@ -250,7 +255,8 @@ Builder.load_string('''
             id: button6
             background_color: root.button6Color
             canvas:
-                Color: root.button6Color
+                Color: 
+                    rgb: root.button6Color
                 RoundedRectangle:
                     size: self.size
                     pos: self.pos
@@ -286,7 +292,8 @@ Builder.load_string('''
             id: button7
             background_color: root.button7Color
             canvas:
-                Color: root.button7Color
+                Color: 
+                    rgb: root.button7Color
                 RoundedRectangle:
                     size: self.size
                     pos: self.pos
@@ -322,7 +329,8 @@ Builder.load_string('''
             id: button8
             background_color: root.button8Color
             canvas:
-                Color: root.button8Color
+                Color: 
+                    rgb: root.button8Color
                 RoundedRectangle:
                     size: self.size
                     pos: self.pos
