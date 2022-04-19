@@ -101,7 +101,7 @@ Builder.load_string('''
                     font_name: root.fontName
                     text: root.button1Text2
                     font_size: 64
-		            padding: dp(70),dp(100)
+                    padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
                     halign: 'center'
