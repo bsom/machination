@@ -330,6 +330,7 @@
         Label:
             id: statusLabel
             text: root.statusLabelText
+            font_name: root.fontName
             halign: 'left'
             max_lines: 1
             font_size: 25
@@ -340,13 +341,15 @@
         size_hint_y: 0.1
         Button:
             id: buttonID
-            text: "bsom:know_future:version218"
+            font_name: root.fontName
+            text: "bsom:know_future:version219"
             halign: 'right'
             max_lines: 4
             font_size: 25
             background_color: 0.4,0.4,0.4,1
         Button:
             id: buttonPlay
+            font_name: root.fontName
             text: "Play"
             font_size: 60
             halign: 'center'
@@ -356,6 +359,7 @@
             markup: True
         Button:
             id: buttonStop
+            font_name: root.fontName
             text: "Stop"
             font_size: 60
             halign: 'center'
