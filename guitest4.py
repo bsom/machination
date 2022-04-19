@@ -419,7 +419,7 @@ Builder.load_string("""
             background_color: 1,0,0,1
             color: 0,0,0,1
             markup: True
-            """)
+""")
 
 class pyMachination(App):
 	def build(self):
