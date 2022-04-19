@@ -190,14 +190,14 @@ switch = {
 
 
 class mainWindow(GridLayout):
-	button1Text = StringProperty('1')
-	button2Text = StringProperty('2')
-	button3Text = StringProperty('3')
-	button4Text = StringProperty('4')
-	button5Text = StringProperty('5')
-	button6Text = StringProperty('6')
-	button7Text = StringProperty('7')
-	button8Text = StringProperty('8')
+	button1Text = StringProperty('0')
+	button2Text = StringProperty('0')
+	button3Text = StringProperty('0')
+	button4Text = StringProperty('0')
+	button5Text = StringProperty('0')
+	button6Text = StringProperty('0')
+	button7Text = StringProperty('0')
+	button8Text = StringProperty('0')
 	button1Text2 = StringProperty('empty')
 	button2Text2 = StringProperty('empty')
 	button3Text2 = StringProperty('empty')
