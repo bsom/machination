@@ -65,206 +65,295 @@ Builder.load_string('''
         cols: 4
         rows: 2
         size_hint_y:1.0
+        spacing: [20,20]
         Button:
             id: button1
             background_color: root.button1Color
-            background_normal: ''
-            color: 1,1,1,1
-            StackLayout:
-                orientation: 'bt-lr'
+            canvas:
+                Color: root.button1Color
+                RoundedRectangle:
+                size: self.size
+                pos: self.pos
+                radius: [0,0,0,150]
+                segments: 1
+            AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
+                anchor_x: 'left'
+                anchor_y: 'bottom'
                 Label:
                     text_size: self.width, None
                     text: root.button1Text
+                    size_hint_y: None
+                    size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-		    padding: dp(10),dp(10)
-                    size_hint_y: None
+		            padding: dp(12),dp(5)
                     markup: True
+            AnchorLayout:
                 Label:
+                    pos: self.parent.pos
+                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button1Text2
                     font_size: 64
-		    padding: dp(40),dp(40)
+		            padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
+                    halign: 'center'
         Button:
             id: button2
             background_color: root.button2Color
-            background_normal: ''
-            color: 1,1,1,1
-            StackLayout:
-                orientation: 'bt-lr'
+            canvas:
+                Color: root.button2Color
+                RoundedRectangle:
+                size: self.size
+                pos: self.pos
+                radius: [0,0,0,150]
+                segments: 1
+            AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
+                anchor_x: 'left'
+                anchor_y: 'bottom'
                 Label:
                     text_size: self.width, None
                     text: root.button2Text
+                    size_hint_y: None
+                    size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-                    padding: dp(10),dp(10)
-                    size_hint_y: None
+		            padding: dp(12),dp(5)
                     markup: True
+            AnchorLayout:
                 Label:
+                    pos: self.parent.pos
+                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button2Text2
                     font_size: 64
-                    padding: dp(40),dp(40)
+		            padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
+                    halign: 'center'
         Button:
             id: button3
             background_color: root.button3Color
-            background_normal: ''
-            color: 1,1,1,1
-            StackLayout:
-                orientation: 'bt-lr'
+            canvas:
+                Color: root.button3Color
+                RoundedRectangle:
+                size: self.size
+                pos: self.pos
+                radius: [0,0,0,150]
+                segments: 1
+            AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
+                anchor_x: 'left'
+                anchor_y: 'bottom'
                 Label:
                     text_size: self.width, None
                     text: root.button3Text
+                    size_hint_y: None
+                    size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-                    padding: dp(10),dp(10)
-                    size_hint_y: None
+		            padding: dp(12),dp(5)
                     markup: True
+            AnchorLayout:
                 Label:
+                    pos: self.parent.pos
+                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button3Text2
                     font_size: 64
-                    padding: dp(40),dp(40)
+		            padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
+                    halign: 'center'
         Button:
             id: button4
             background_color: root.button4Color
-            background_normal: ''
-            color: 1,1,1,1
-            StackLayout:
-                orientation: 'bt-lr'
+            canvas:
+                Color: root.button4Color
+                RoundedRectangle:
+                size: self.size
+                pos: self.pos
+                radius: [0,0,0,150]
+                segments: 1
+            AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
+                anchor_x: 'left'
+                anchor_y: 'bottom'
                 Label:
                     text_size: self.width, None
                     text: root.button4Text
+                    size_hint_y: None
+                    size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-                    padding: dp(10),dp(10)
-                    size_hint_y: None
+		            padding: dp(12),dp(5)
                     markup: True
+            AnchorLayout:
                 Label:
+                    pos: self.parent.pos
+                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button4Text2
                     font_size: 64
-                    padding: dp(40),dp(40)
+		            padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
+                    halign: 'center'
         Button:
             id: button5
             background_color: root.button5Color
-            background_normal: ''
-            color: 1,1,1,1
-            StackLayout:
-                orientation: 'bt-lr'
+            canvas:
+                Color: root.button5Color
+                RoundedRectangle:
+                size: self.size
+                pos: self.pos
+                radius: [0,0,0,150]
+                segments: 1
+            AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
+                anchor_x: 'left'
+                anchor_y: 'bottom'
                 Label:
                     text_size: self.width, None
                     text: root.button5Text
+                    size_hint_y: None
+                    size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-                    padding: dp(10),dp(10)
-                    size_hint_y: None
+		            padding: dp(12),dp(5)
                     markup: True
+            AnchorLayout:
                 Label:
+                    pos: self.parent.pos
+                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button5Text2
                     font_size: 64
-                    padding: dp(40),dp(40)
+		            padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
+                    halign: 'center'
         Button:
             id: button6
             background_color: root.button6Color
-            background_normal: ''
-            color: 1,1,1,1
-            StackLayout:
-                orientation: 'bt-lr'
+            canvas:
+                Color: root.button6Color
+                RoundedRectangle:
+                size: self.size
+                pos: self.pos
+                radius: [0,0,0,150]
+                segments: 1
+            AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
+                anchor_x: 'left'
+                anchor_y: 'bottom'
                 Label:
                     text_size: self.width, None
                     text: root.button6Text
+                    size_hint_y: None
+                    size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-                    padding: dp(10),dp(10)
-                    size_hint_y: None
+		            padding: dp(12),dp(5)
                     markup: True
+            AnchorLayout:
                 Label:
+                    pos: self.parent.pos
+                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button6Text2
                     font_size: 64
-                    padding: dp(40),dp(40)
+		            padding: dp(70),dp(100)
                     size_hint_y: None
-                    markup: Truee
+                    markup: True
+                    halign: 'center'
         Button:
             id: button7
             background_color: root.button7Color
-            background_normal: ''
-            color: 1,1,1,1
-            StackLayout:
-                orientation: 'bt-lr'
+            canvas:
+                Color: root.button7Color
+                RoundedRectangle:
+                size: self.size
+                pos: self.pos
+                radius: [0,0,0,150]
+                segments: 1
+            AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
+                anchor_x: 'left'
+                anchor_y: 'bottom'
                 Label:
                     text_size: self.width, None
                     text: root.button7Text
+                    size_hint_y: None
+                    size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-                    padding: dp(10),dp(10)
-                    size_hint_y: None
+		            padding: dp(12),dp(5)
                     markup: True
+            AnchorLayout:
                 Label:
+                    pos: self.parent.pos
+                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button7Text2
                     font_size: 64
-                    padding: dp(40),dp(40)
+		            padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
+                    halign: 'center'
         Button:
             id: button8
             background_color: root.button8Color
-            background_normal: ''
-            color: 1,1,1,1
-            StackLayout:
-                orientation: 'bt-lr'
+            canvas:
+                Color: root.button8Color
+                RoundedRectangle:
+                size: self.size
+                pos: self.pos
+                radius: [0,0,0,150]
+                segments: 1
+            AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
+                anchor_x: 'left'
+                anchor_y: 'bottom'
                 Label:
                     text_size: self.width, None
                     text: root.button8Text
+                    size_hint_y: None
+                    size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-                    padding: dp(10),dp(10)
-                    size_hint_y: None
+		            padding: dp(12),dp(5)
                     markup: True
+            AnchorLayout:
                 Label:
+                    pos: self.parent.pos
+                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button8Text2
                     font_size: 64
-                    padding: dp(40),dp(40)
+		            padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
+                    halign: 'center'
     GridLayout:
         orientation: 'lr-tb'
         cols: 1
