@@ -89,7 +89,7 @@ Builder.load_string('''
                     size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-		    padding: dp(12),dp(5)
+                    padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
                 pos: self.parent.pos
