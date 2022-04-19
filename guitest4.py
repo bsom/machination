@@ -72,10 +72,10 @@ Builder.load_string('''
             canvas:
                 Color: root.button1Color
                 RoundedRectangle:
-                size: self.size
-                pos: self.pos
-                radius: [0,0,0,150]
-                segments: 1
+                    size: self.size
+                    pos: self.pos
+                    radius: [0,0,0,150]
+                    segments: 1
             AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
@@ -108,10 +108,10 @@ Builder.load_string('''
             canvas:
                 Color: root.button2Color
                 RoundedRectangle:
-                size: self.size
-                pos: self.pos
-                radius: [0,0,0,150]
-                segments: 1
+                    size: self.size
+                    pos: self.pos
+                    radius: [0,0,0,150]
+                    segments: 1
             AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
@@ -144,10 +144,10 @@ Builder.load_string('''
             canvas:
                 Color: root.button3Color
                 RoundedRectangle:
-                size: self.size
-                pos: self.pos
-                radius: [0,0,0,150]
-                segments: 1
+                    size: self.size
+                    pos: self.pos
+                    radius: [0,0,0,150]
+                    segments: 1
             AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
@@ -180,10 +180,10 @@ Builder.load_string('''
             canvas:
                 Color: root.button4Color
                 RoundedRectangle:
-                size: self.size
-                pos: self.pos
-                radius: [0,0,0,150]
-                segments: 1
+                    size: self.size
+                    pos: self.pos
+                    radius: [0,0,0,150]
+                    segments: 1
             AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
@@ -216,10 +216,10 @@ Builder.load_string('''
             canvas:
                 Color: root.button5Color
                 RoundedRectangle:
-                size: self.size
-                pos: self.pos
-                radius: [0,0,0,150]
-                segments: 1
+                    size: self.size
+                    pos: self.pos
+                    radius: [0,0,0,150]
+                    segments: 1
             AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
@@ -252,10 +252,10 @@ Builder.load_string('''
             canvas:
                 Color: root.button6Color
                 RoundedRectangle:
-                size: self.size
-                pos: self.pos
-                radius: [0,0,0,150]
-                segments: 1
+                    size: self.size
+                    pos: self.pos
+                    radius: [0,0,0,150]
+                    segments: 1
             AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
@@ -288,10 +288,10 @@ Builder.load_string('''
             canvas:
                 Color: root.button7Color
                 RoundedRectangle:
-                size: self.size
-                pos: self.pos
-                radius: [0,0,0,150]
-                segments: 1
+                    size: self.size
+                    pos: self.pos
+                    radius: [0,0,0,150]
+                    segments: 1
             AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
@@ -324,10 +324,10 @@ Builder.load_string('''
             canvas:
                 Color: root.button8Color
                 RoundedRectangle:
-                size: self.size
-                pos: self.pos
-                radius: [0,0,0,150]
-                segments: 1
+                    size: self.size
+                    pos: self.pos
+                    radius: [0,0,0,150]
+                    segments: 1
             AnchorLayout:
                 pos: self.parent.pos
                 size: self.parent.size
