@@ -232,7 +232,7 @@ class mainWindow(GridLayout):
 			rgbcolor = (0.1,0.1,0.1,1)
 			text_color="ffffff"
 		setattr(rootObj,buttonToChange+"Color",rgbcolor)
-		setattr(rootObj,buttonToChange+"Text", "[color=#" + text_color + "]" + str(value) + "[/color]")
+		setattr(rootObj,buttonToChange+"Text", "[color=#FFFFFF]" + str(value) + "[/color]")
 		setattr(rootObj,buttonToChange+"Text2", "[color=#" + text_color + "]" + str(osc.clips[knob-1][value])+"[/color]")
 		setattr(rootObj,"statusLabelText", "Encoder: " + str(knob) + " Value: " + str(value) + " " + str(osc.clips[knob-1][value]))
 
