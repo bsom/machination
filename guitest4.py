@@ -61,7 +61,7 @@ Builder.load_string('''
     rows: 3
     size_hint_y:1.0
     GridLayout:
-    orientation: 'lr-tb'
+        orientation: 'lr-tb'
         cols: 4
         rows: 2
         size_hint_y:1.0
@@ -419,7 +419,7 @@ Builder.load_string('''
             background_color: 1,0,0,1
             color: 0,0,0,1
             markup: True
-''')
+            ''')
 
 class pyMachination(App):
 	def build(self):
