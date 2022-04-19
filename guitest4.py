@@ -92,9 +92,11 @@ Builder.load_string('''
 		            padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
+                pos: self.parent.pos
+                size: self.parent.size
+                anchor_x: 'center'
+                anchor_y: 'center'
                 Label:
-                    pos: self.parent.pos
-                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button1Text2
@@ -129,9 +131,11 @@ Builder.load_string('''
 		            padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
+                pos: self.parent.pos
+                size: self.parent.size
+                anchor_x: 'center'
+                anchor_y: 'center'
                 Label:
-                    pos: self.parent.pos
-                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button2Text2
@@ -166,9 +170,11 @@ Builder.load_string('''
 		            padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
+                pos: self.parent.pos
+                size: self.parent.size
+                anchor_x: 'center'
+                anchor_y: 'center'
                 Label:
-                    pos: self.parent.pos
-                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button3Text2
@@ -203,9 +209,11 @@ Builder.load_string('''
 		            padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
+                pos: self.parent.pos
+                size: self.parent.size
+                anchor_x: 'center'
+                anchor_y: 'center'
                 Label:
-                    pos: self.parent.pos
-                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button4Text2
@@ -240,9 +248,10 @@ Builder.load_string('''
 		            padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
-                Label:
-                    pos: self.parent.pos
-                    size: self.parent.size
+                pos: self.parent.pos
+                size: self.parent.size
+                anchor_x: 'center'
+                anchor_y: 'center'Label:
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button5Text2
@@ -277,9 +286,11 @@ Builder.load_string('''
 		            padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
+                pos: self.parent.pos
+                size: self.parent.size
+                anchor_x: 'center'
+                anchor_y: 'center'
                 Label:
-                    pos: self.parent.pos
-                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button6Text2
@@ -314,9 +325,11 @@ Builder.load_string('''
 		            padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
+                pos: self.parent.pos
+                size: self.parent.size
+                anchor_x: 'center'
+                anchor_y: 'center'
                 Label:
-                    pos: self.parent.pos
-                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button7Text2
@@ -351,9 +364,11 @@ Builder.load_string('''
 		            padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
+                pos: self.parent.pos
+                size: self.parent.size
+                anchor_x: 'center'
+                anchor_y: 'center'
                 Label:
-                    pos: self.parent.pos
-                    size: self.parent.size
                     text_size: self.width, None
                     font_name: root.fontName
                     text: root.button8Text2
