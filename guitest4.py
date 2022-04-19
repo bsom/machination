@@ -55,7 +55,7 @@ all_clip_colors = {
 		"0x236384":64,"0x1a2f96":65,"0x2f52a2":66,"0x624bad":67,"0xa34bad":68,"0xcc2e6e":69,"0x3c3c3c":70}
 
 # Kivy Window Builder
-Builder.load_string("""
+Builder.load_string('''
 <mainWindow>:
     orientation: 'lr-tb'
     cols: 1
@@ -421,7 +421,7 @@ Builder.load_string("""
             color: 0,0,0,1
             markup: True
 
-""")
+''')
 
 class pyMachination(App):
 	def build(self):
