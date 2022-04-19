@@ -396,7 +396,7 @@ Builder.load_string('''
         size_hint_y: 0.1
         Button:
             id: buttonID
-            text: "bsom:know_future:version213"
+            text: "bsom:know_future:version218"
             halign: 'right'
             max_lines: 4
             font_size: 25
