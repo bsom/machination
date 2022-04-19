@@ -101,7 +101,7 @@ Builder.load_string('''
                     font_name: root.fontName
                     text: root.button1Text2
                     font_size: 64
-		    padding: dp(70),dp(100)
+		            padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
                     halign: 'center'
@@ -128,7 +128,7 @@ Builder.load_string('''
                     size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-		    padding: dp(12),dp(5)
+                    padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
                 pos: self.parent.pos
@@ -140,7 +140,7 @@ Builder.load_string('''
                     font_name: root.fontName
                     text: root.button2Text2
                     font_size: 64
-		    padding: dp(70),dp(100)
+                    padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
                     halign: 'center'
@@ -167,7 +167,7 @@ Builder.load_string('''
                     size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-		    padding: dp(12),dp(5)
+                    padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
                 pos: self.parent.pos
@@ -179,7 +179,7 @@ Builder.load_string('''
                     font_name: root.fontName
                     text: root.button3Text2
                     font_size: 64
-		    padding: dp(70),dp(100)
+                    padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
                     halign: 'center'
@@ -206,7 +206,7 @@ Builder.load_string('''
                     size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-		    padding: dp(12),dp(5)
+                    padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
                 pos: self.parent.pos
@@ -218,7 +218,7 @@ Builder.load_string('''
                     font_name: root.fontName
                     text: root.button4Text2
                     font_size: 64
-		    padding: dp(70),dp(100)
+                    padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
                     halign: 'center'
@@ -245,7 +245,7 @@ Builder.load_string('''
                     size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-		    padding: dp(12),dp(5)
+                    padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
                 pos: self.parent.pos
@@ -256,7 +256,7 @@ Builder.load_string('''
                     font_name: root.fontName
                     text: root.button5Text2
                     font_size: 64
-		    padding: dp(70),dp(100)
+                    padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
                     halign: 'center'
@@ -283,7 +283,7 @@ Builder.load_string('''
                     size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-		    padding: dp(12),dp(5)
+                    padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
                 pos: self.parent.pos
@@ -295,7 +295,7 @@ Builder.load_string('''
                     font_name: root.fontName
                     text: root.button6Text2
                     font_size: 64
-		    padding: dp(70),dp(100)
+                    padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
                     halign: 'center'
@@ -322,7 +322,7 @@ Builder.load_string('''
                     size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-		    padding: dp(12),dp(5)
+                    padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
                 pos: self.parent.pos
@@ -334,7 +334,7 @@ Builder.load_string('''
                     font_name: root.fontName
                     text: root.button7Text2
                     font_size: 64
-		    padding: dp(70),dp(100)
+                    padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
                     halign: 'center'
@@ -361,7 +361,7 @@ Builder.load_string('''
                     size_hint_x: None
                     font_name: root.fontName
                     font_size: 32
-		    padding: dp(12),dp(5)
+                    padding: dp(12),dp(5)
                     markup: True
             AnchorLayout:
                 pos: self.parent.pos
@@ -373,7 +373,7 @@ Builder.load_string('''
                     font_name: root.fontName
                     text: root.button8Text2
                     font_size: 64
-		    padding: dp(70),dp(100)
+                    padding: dp(70),dp(100)
                     size_hint_y: None
                     markup: True
                     halign: 'center'
