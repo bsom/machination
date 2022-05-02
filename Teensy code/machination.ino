@@ -49,12 +49,6 @@ void encoder_fade(i2cEncoderLibV2* obj) {
 }
 
 void onCC(byte channel, byte control, byte value){
-      //Serial.print(int(channel));
-      //Serial.print("\n");
-      //Serial.print(int(control));
-      //Serial.print("\n");
-      //Serial.print(int(value));
-      //Serial.print("\n\n");
       if (value == 71){
         RGBEncoder[channel-1].writeRGBCode(0x000000);
       } else {
@@ -127,7 +121,7 @@ void loop() {
   uint8_t enc_cnt;
   
   if (digitalRead(IntPin) == LOW) {
-    //Interrupt from he Encoders, Start to Scan the Encoder Matrix
+    //Interrupt from the Encoders, Start to Scan the Encoder Matrix
     for (enc_cnt = 0; enc_cnt < ENCODER_N; enc_cnt++) {
       if (digitalRead(IntPin) == HIGH) { //If the interrupt pin return high, exit from the encoder scan
         break;
